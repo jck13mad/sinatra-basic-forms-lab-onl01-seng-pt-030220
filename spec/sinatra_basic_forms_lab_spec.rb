@@ -10,7 +10,7 @@ describe 'App' do
 
     it 'has a link with the text "List A Puppy"' do
       visit '/'
-      expect(page).to have_link("List A Puppy")
+      expect(page).to have_text("List A Puppy")
     end
 
     it 'has a link to list a puppy that links to /new' do
